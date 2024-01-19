@@ -51,4 +51,6 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [defaultLayoutPlugin],
   },
+  site: "https://webcia-weekly.github.io",
+  base: "/Weekly",
 });

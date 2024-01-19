@@ -9,4 +9,4 @@ Github：
 知乎：
 微信公众号:
 
-- [第 01 期 - Web 情报局](https://markyun.github.io/posts/01-Web情报局)
+- [第 01 期 - Web 情报局](https://webcia-weekly.vercel.app/posts/1-Web%E6%83%85%E6%8A%A5%E5%B1%80)
