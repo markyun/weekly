@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy WebCIA Weekly to GitHub Pages
 
 on:
   # 每次推送到 `main` 分支时触发这个“工作流程”
@@ -34,6 +34,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy WebCIA Weekly to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1

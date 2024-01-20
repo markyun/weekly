@@ -47,10 +47,11 @@ function defaultLayoutPlugin() {
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://markyun.github.io/weekly/",
+  base: "/weekly",
+  output: "static",
   integrations: [react(), tailwind()],
   markdown: {
     remarkPlugins: [defaultLayoutPlugin],
   },
-  site: "https://webcia-weekly.github.io",
-  base: "/Weekly",
 });

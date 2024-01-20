@@ -5,7 +5,7 @@ export const SITE = {
   keywords: "MarkYun,WebCIA,Weekly,Web,前端,React,JavaScript,",
   icon: "https://markyun.github.io/images/avatar.png",
   pic: "https://markyun.github.io/images/avatar.png",
-  homePage: "https://markyun.github.io/",
+  homePage: "https://markyun.github.io/weekly/",
   blogPage: "https://markyun.github.io/",
   twitterId: "AsciiArt007",
   githubId: "markyun",

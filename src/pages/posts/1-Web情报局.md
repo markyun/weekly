@@ -10,6 +10,10 @@ date: 2024/01/19
 
 ## 技术
 
+**React Libraries for 2024**
+<https://www.robinwieruch.de/react-libraries/>
+在 2024 年可能会流行或者被广泛使用的 React 库。包含: 包管理、状态管理、数据获取、路由、CSS 样式、UI 库、动画库、可视化和图表库、表单库、类型检查、代码结构、身份验证、后端、数据库、托管、测试等。
+
 **让用户养成使用习惯的产品逻辑**
 <https://zcool.com.cn/work/ZNjczMDA1NzY=.html>
 在站酷上看到一篇交互设计师胡三七写的「让用户养成使用习惯的产品逻辑」的万字文章，带大家认识大家熟知的行为设计模型，还会带上一些不靠谱的案例和靠谱的互联网案例，让大家更好理解学习。
@@ -41,6 +45,11 @@ https://quail.ink/op7418/p/overview-of-generative-ai-animation-technology-2023-d
 <img src="https://cdn.fliggy.com/upic/kv0MZZ.gif" width="800" />
 
 ## 开源
+
+**简的 RSS 在线浏览工具**
+<https://github.com/srcrs/rss-reader>
+部署后，自定义配置好自己的 RRS 原，即可实时获取并展示 rss 订阅最新消息，支持夜间模式。
+<img src="https://p.ipic.vip/edvh1v.png" width="800" />
 
 ## 资讯
 
