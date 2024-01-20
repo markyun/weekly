@@ -189,7 +189,7 @@ if (postIndex < allPosts.length) {
           id="write"
         >
           <h1 class="content-title flex align-middle text-gray-800">
-            <a class="logo inline-block md:hidden visible" href="/"
+            <a class="logo inline-block md:hidden visible" href={SITE.homePage}
               ><AstroLogo size={40} />
             </a>
             <span data-pagefind-meta="title">{title}</span>
@@ -220,7 +220,7 @@ if (postIndex < allPosts.length) {
             <div class="md:mt-0 mt-4 flex-1 text-right">
               {nextUrl ? <a href={nextUrl}>下一期 |</a> : null}
               {prevUrl ? <a href={prevUrl}>上一期 |</a> : null}
-              <a href="/">去首页 |</a>
+              <a href={SITE.homePage}>去首页 |</a>
               <a
                 href={`https://twitter.com/${SITE.twitterId}`}
                 target="_blank"
