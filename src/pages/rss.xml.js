@@ -14,9 +14,9 @@ posts.splice(10);
 
 export const get = () =>
   rss({
-    title: "WebCIA Weekly",
-    description: "保持领先所需的见解",
-    site: "https://markyun.github.io/weekly/",
+    title: 'WebCIA Weekly',
+    description: '保持领先所需的见解',
+    site: 'https://markyun.github.io/weekly/',
     customData: `<image><url>https://markyun.github.io/images/avatar.png</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
@@ -24,10 +24,10 @@ export const get = () =>
       const title =
         "第" + oldTitle.split("-")[0] + "期 - " + oldTitle.split("-")[1];
       return {
-        link: url,
         title,
-        description: item.compiledContent(),
+        link: url,
         pubDate: item.frontmatter.date,
+        description: item.compiledContent(),
       };
     }),
   });

@@ -3,6 +3,7 @@ import '../styles/theme.css';
 import '../styles/index.css';
 import { SITE } from '@/config';
 const {icon} =SITE;
+
 ---
 
 <!-- Global Metadata -->
@@ -16,3 +17,26 @@ const {icon} =SITE;
 
 <link rel="stylesheet" href="https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css" rel="preload" as="font">
 
+
+
+<script>
+  const changeTheme = (e) => {
+    const darkModeOn = e.matches;
+    const body = document.querySelector('body');
+    if (darkModeOn) {
+      body.className='dark';
+    } else {
+      body.className='light';
+    }
+  }
+  const darkModeMediaQuery = window?.matchMedia(
+        '(prefers-color-scheme: dark)'
+  );
+
+  changeTheme(darkModeMediaQuery);
+
+  darkModeMediaQuery.addListener(e => {
+    changeTheme(e);
+  });
+
+</script>

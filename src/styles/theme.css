@@ -77,3 +77,13 @@ body {
   color: var(--theme-selection-color);
   background-color: var(--theme-selection-bg);
 }
+
+body:not(img):not(canvas):not(video):not(svg):not(.ant-segmented).dark{
+  background: #191A27;
+  filter: invert(1) hue-rotate(180deg) brightness(120%) contrast(90%);
+}
+.dark aside{
+  background: #232423!important;
+  border-right: 1px solid #505050;
+  filter: invert(1) hue-rotate(180deg) brightness(120%) contrast(90%);
+}
