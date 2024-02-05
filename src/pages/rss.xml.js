@@ -17,7 +17,7 @@ export const get = () =>
     title: 'WebCIA Weekly',
     description: '保持领先所需的见解',
     site: 'https://markyun.github.io/weekly/',
-    customData: `<image><url>https://markyun.github.io/images/avatar.png</url></image>`,
+    customData: `<image><url>https://markyun.github.io/weekly/assets/WebCIA.svg</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
       const oldTitle = url.split("/posts/")[1];

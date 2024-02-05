@@ -20,4 +20,5 @@ Github：
 
 ## 发刊记录
 
+- [第 02 期 - 回家过年](https://markyun.github.io/weekly/posts/02-%E5%9B%9E%E5%AE%B6%E8%BF%87%E5%B9%B4/)
 - [第 01 期 - Web 情报局](https://markyun.github.io/weekly/posts/1-Web%E6%83%85%E6%8A%A5%E5%B1%80)
