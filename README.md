@@ -18,7 +18,20 @@ Github：
 
 微信公众号:
 
-## 发刊记录
+## 关于我
 
-- [第 02 期 - 回家过年](https://markyun.github.io/weekly/posts/02-%E5%9B%9E%E5%AE%B6%E8%BF%87%E5%B9%B4/)
-- [第 01 期 - Web 情报局](https://markyun.github.io/weekly/posts/1-Web%E6%83%85%E6%8A%A5%E5%B1%80)
+```js
+// On this page, you’ll find  about me.
+const my = {
+  name: 'markyun',
+  tags: ['Web Developer','Photog','Cycling enthusiast', 'INFJ'],
+  adress: 'Jiangsu - Nanjing',
+  email: 'majinyun@outlook.com',
+  introduce: 'Hi, I’m a frontend developer. This is my spot on the web for writing, projects, tutorials and anything else I want to put out there. check out the blog, or of my weekly.',
+  github: 'https://github.com/markyun',
+  blog: 'https://markyun.github.io/',
+  wiki: 'https://markyun.github.io/wiki/',
+  webcia_weekly: 'https://markyun.github.io/weekly/',
+  RSSReader: 'https://markyun.github.io/rss/',
+}
+
