@@ -2,21 +2,21 @@
 
 > 分享每周从 RSS 源获取到的优质信息聚合，包含：技术文章、产品设计、思维观点、开源项目、资源和工具、焦点资讯等，一切值得关注的事物，为大家提供保持领先所需的见解，也帮自己完成了信息资源存档。
 
-## 部署地址:
+## 部署地址
 
 https://markyun.github.io/weekly/
 
 https://webcia-weekly.vercel.app/
 
-## 也会在以下渠道同时发布:
+## 也会在以下渠道不定期同时更新发布
 
-Github：
+Github：markyun/weekly
 
-语雀：
+语雀：www.yuque.com/markyun/webcia-weekly
 
-知乎：
+掘金：juejin.cn/column/7326182576004513807
 
-微信公众号:
+微信公众号：WebCIA Weekly
 
 ## 关于我
 
