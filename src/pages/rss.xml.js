@@ -15,7 +15,7 @@ posts.splice(10);
 export const get = () =>
   rss({
     title: 'WebCIA Weekly',
-    description: '保持领先所需的见解',
+    description: 'feedId:63404283121618946+userId:63253081063695360',
     site: 'https://markyun.github.io/weekly/',
     customData: `<image><url>https://markyun.github.io/weekly/assets/WebCIA.svg</url></image>`,
     items: posts.map((item) => {
